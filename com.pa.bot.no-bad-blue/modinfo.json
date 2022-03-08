@@ -1,0 +1,24 @@
+{
+  "context": "server",
+  "identifier": "com.pa.bot.no-bad-blue",
+  "display_name": "NoBadBlue",
+  "description": "Removes the last blue army color option that is known for causing graphical issues",
+  "author": "Bot, FerretMaster",
+  "version": "1.0",
+  "build": "105067",
+  "date": "3/8/22",
+  "signature": "not implemented",
+  "forum": "",
+  "titansOnly": false,
+  "classicOnly": false,
+  "priority": 1,
+  "icon": "https://i2.wp.com/files.123freevectors.com/wp-content/solidbackground/traditional-royal-blue-free-solidcolor-background.jpg?w=800&q=95",
+  "category": ["lobby", "ui"],
+  "scenes":
+  {
+    "new_game":
+    [
+      "coui://ui/mods/com.pa.bot.no-bad-blue/new_game.js"
+    ]
+  }
+}
