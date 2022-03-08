@@ -17,9 +17,6 @@
     "lobby",
     "ui"
   ],
-  "dependencies": [
-    "pachat"
-  ],
   "scenes": {
     "new_game": [
       "coui://ui/mods/com.pa.bot.no-bad-blue/new_game.js"
